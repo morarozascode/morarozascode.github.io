@@ -1,0 +1,32 @@
+body {
+  background-color: black;
+  color: white; /* Opcional: para que el texto se vea bien sobre fondo negro */
+  padding-top: 108px;
+}
+
+/* Navbar */
+/* Tamaño base del logo */
+.logo {
+  width: 300px;
+  height: auto;
+}
+
+/* Tamaño para tablets y pantallas medianas */
+@media (max-width: 768px) {
+  .logo {
+    width: 90px;
+  }
+}
+
+/* Tamaño para celulares */
+@media (max-width: 480px) {
+  .logo {
+    width: 70px;
+  }
+}
+/*No tapar el contenido con la barra*/
+body {
+  padding-top: 108px;
+}
+
+/*HEADER*/
