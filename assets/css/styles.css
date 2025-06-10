@@ -29,4 +29,7 @@ body {
   padding-top: 108px;
 }
 
-/*HEADER*/
+html {
+  scroll-padding-top: 120px;
+  scroll-behavior: smooth;
+}
